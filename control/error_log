@@ -1,0 +1,4 @@
+[07-Oct-2018 19:23:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/digitalh/public_html/survey/control/cpanel.php:22) in /home2/digitalh/public_html/survey/bll/survey_common.php on line 8
+[10-Oct-2018 16:47:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/digitalh/public_html/survey/control/cpanel.php:22) in /home2/digitalh/public_html/survey/bll/survey_common.php on line 8
+[10-Oct-2018 16:48:07 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home2/digitalh/public_html/survey/control/past_campaign.php on line 41
+[22-Oct-2018 02:51:58 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home2/digitalh/public_html/survey/control/past_campaign.php on line 41

@@ -1,0 +1,88 @@
+@media print {
+* {
+	background: transparent !important;
+	color: black !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	filter: none !important;
+	-ms-filter: none !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+} /* Black prints faster: h5bp.com/s */
+a, a:visited {
+	text-decoration: underline;
+}
+a[href]:after {
+	content: " (" attr(href) ")";
+}
+abbr[title]:after {
+	content: " (" attr(title) ")";
+}
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+	content: "";
+} /* Don't show links for images, or javascript/internal links */
+pre, blockquote {
+	border: 1px solid #999;
+	page-break-inside: avoid;
+}
+thead {
+	display: table-header-group;
+} /* h5bp.com/t */
+tr, img {
+	page-break-inside: avoid;
+}
+img {
+	max-width: 100% !important;
+}
+ @page {
+margin: 0.5cm;
+}
+p, h2, h3 {
+	orphans: 3;
+	widows: 3;
+}
+h2, h3 {
+	page-break-after: avoid;
+}
+.topbar, .footerarea, .navarea, .blubarae, .pagination, .phide {
+	display: none
+}
+.contentarea {
+	width: 98% !important;
+	padding: 0 !important;
+	float: none !important;
+	margin: 0 auto !important;
+	border: none !important;
+}
+.contentarea table {
+	width: 100%;
+	background: #ffffff;
+	color: #000;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important;
+}
+.contentarea table thead {
+}
+.contentarea table thead td {
+	font-weight: bold;
+	background: #ffffff;
+	color: #000;
+	font-size: medium !important;
+}
+.contentarea table tr td {
+	padding: 8px;
+
+	text-transform: capitalize;
+	font-size: small;
+	background: #ffffff;
+	color: #000;
+}
+.contentarea td a {
+	color: #036;
+}
+}
